@@ -9,7 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
     public class HelloWorldController {
         @GetMapping
         public String printHelloWorld() {
+            System.out.println("Commit changing");
             return "Greetings from First Application";
+            
         }
     }
 
